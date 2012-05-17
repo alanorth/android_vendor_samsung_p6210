@@ -16,13 +16,13 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p6210/proprietary/libril.so:obj/lib/libril.so \
-    vendor/samsung/p6210/proprietary/libsecril-client.so:obj/lib/libsecril-client.so
+    vendor/samsung/p6210/proprietary/ril/lib/libril.so:obj/lib/libril.so \
+    vendor/samsung/p6210/proprietary/ril/lib/libsecril-client.so:obj/lib/libsecril-client.so
 
 # RIL
 PRODUCT_COPY_FILES += \
-    vendor/samsung/p6210/proprietary/rild:system/bin/rild \
-    vendor/samsung/p6210/proprietary/libril.so:system/lib/libril.so \
-    vendor/samsung/p6210/proprietary/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \
-    vendor/samsung/p6210/proprietary/libsecril-client.so:system/lib/libsecril-client.so
+    vendor/samsung/p6210/proprietary/ril/bin/rild:system/bin/rild \
+    vendor/samsung/p6210/proprietary/ril/lib/libril.so:system/lib/libril.so \
+    vendor/samsung/p6210/proprietary/ril/lib/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \
+    vendor/samsung/p6210/proprietary/ril/lib/libsecril-client.so:system/lib/libsecril-client.so
 
