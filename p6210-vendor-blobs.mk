@@ -52,6 +52,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p6210/proprietary/lpm/media/chargingwarning_180.qmg:system/media/chargingwarning_180.qmg \
     vendor/samsung/p6210/proprietary/lpm/media/Disconnected.qmg:system/media/Disconnected.qmg \
     vendor/samsung/p6210/proprietary/lpm/media/Disconnected_180.qmg:system/media/Disconnected_180.qmg \
-    vendor/samsung/p6210/proprietary/lpm/media/bootsamsung.qmg:system/media/bootsamsung.qmg \
-    vendor/samsung/p6210/proprietary/lpm/media/bootsamsungloop.qmg:system/media/bootsamsungloop.qmg
 
