@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/p6210/proprietary/ril/lib/libsec-ril-apalone.so:system/lib/libsec-ril-apalone.so \
     vendor/samsung/p6210/proprietary/ril/lib/libsecril-client.so:system/lib/libsecril-client.so
 
+# SENSORS
+PRODUCT_COPY_FILES += \
+    vendor/samsung/p6210/proprietary/sensors/lib/hw/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so
+
 # LPM
 PRODUCT_COPY_FILES += \
     vendor/samsung/p6210/proprietary/lpm/bin/charging_mode:system/bin/charging_mode \
